@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"cortex-debug.armToolchainPrefix": "arm-none-eabi",
+		"files.associations": {
+			"*.ld": "ld",
+			"*.S": "asm"
+		}
+	}
+}

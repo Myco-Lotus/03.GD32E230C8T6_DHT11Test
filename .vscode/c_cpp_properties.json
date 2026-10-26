@@ -1,0 +1,19 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "GD32",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/sdk/GD32E23x_Firmware_Library/Firmware/CMSIS",
+        "${workspaceFolder}/sdk/GD32E23x_Firmware_Library/Firmware/CMSIS/GD/GD32E23x/Include",
+        "${workspaceFolder}/sdk/GD32E23x_Firmware_Library/Firmware/GD32E23x_standard_peripheral/Include"
+      ],
+      "defines": [
+        "GD32E230"
+      ],
+      "compilerPath": "D:/Software/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/arm-none-eabi-gcc.EXE",
+      "cStandard": "c11"
+    }
+  ]
+}

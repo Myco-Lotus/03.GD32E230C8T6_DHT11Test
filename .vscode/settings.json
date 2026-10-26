@@ -1,0 +1,29 @@
+{
+  // ===== CMake / 构建 =====
+  "cmake.useCMakePresets": "always",
+  "cmake.configureOnOpen": true,
+
+  // ===== IntelliSense =====
+  // 不写 C_Cpp.default.intelliSenseMode：它取值是**平台相关**的
+  // （windows-gcc-arm / linux-gcc-arm / macos-gcc-arm），写死哪个在别的系统上就错了。
+  // 交给 CMake Tools 提供就够了。
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "C_Cpp.default.cStandard": "c11",
+
+  // ===== Cortex-Debug =====
+  "cortex-debug.armToolchainPrefix": "arm-none-eabi",
+
+  // ===== 文件关联 / 搜索排除 =====
+  "files.associations": {
+    "*.ld": "ld",
+    "*.S": "asm"
+  },
+  "search.exclude": {
+    "build/**": true,
+    "sdk/**": true
+  },
+  "files.watcherExclude": {
+    "**/build/**": true,
+    "**/sdk/**": true
+  }
+}
