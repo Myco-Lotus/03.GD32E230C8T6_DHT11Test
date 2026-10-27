@@ -1,11 +1,11 @@
 {
   "generator": "gd32-devkit",
   "schema": 1,
-  "name": "GD32E230C8T6_UartTest",
+  "name": "GD32E230C8T6_DHT11Test",
   "part": "GD32E230C8T6",
   "family": "GD32E23x",
   "targetId": "gd32e230c8t6",
-  "elf": "build/debug/GD32E230C8T6_UartTest.elf",
+  "elf": "build/debug/GD32E230C8T6_DHT11Test.elf",
   "svd": "sdk/GD32E23x.svd",
   "pack": "D:\\Software\\Microsoft VS Code\\gd32-sdk\\.generated-packs\\GD32E23x\\GigaDevice.GD32E23x_DFP.pack"
 }

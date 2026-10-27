@@ -47,6 +47,8 @@ add_executable(${PROJECT_NAME}
   src/main.c
   src/systick.c
   src/gd32e23x_it.c
+  src/dht11.c
+  src/oled.c
   # CMSIS: 系统初始化 + GCC 启动文件 + newlib 系统调用桩
   ${GD32_SYSTEM_SRC}
   ${GD32_DEVICE}/Source/GCC/startup_gd32e23x.S
