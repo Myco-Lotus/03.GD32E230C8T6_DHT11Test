@@ -10,5 +10,16 @@
 			"*.ld": "ld",
 			"*.S": "asm"
 		}
+	},
+	"extensions": {
+		"recommendations": [
+		"curabbit.gd32-devkit",
+		"ms-vscode.cmake-tools",
+		"ms-vscode.cpp-devtools",
+		"ms-vscode.cpptools",
+		"marus25.cortex-debug",
+		"mcu-debug.peripheral-viewer"
+		]
+
 	}
 }
